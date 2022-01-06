@@ -104,8 +104,8 @@ var myFavoriteNumbers = [4,8,12,16,20,24, 5, 8, 9, 10];
 
 //Code Here
 
-let someNum = myFavoriteNumbers[4];
-console.log(someNum);
+// let someNum = myFavoriteNumbers[4];
+// console.log(someNum);
 
 ////////// PROBLEM 7 //////////
 
@@ -115,14 +115,14 @@ console.log(someNum);
 //Code Here
 
 
-if (myFavoriteNumbers.length < 7) {
-  console.log('There are not enough elements')
-} else if (myFavoriteNumbers.length === 7)  {
-  console.log('There are 7 elements in this array')
-} else {
-  someNum = myFavoriteNumbers[6]
-};
-console.log(`this is string`,someNum)
+// if (myFavoriteNumbers.length < 7) {
+//   console.log('There are not enough elements')
+// } else if (myFavoriteNumbers.length === 7)  {
+//   console.log('There are 7 elements in this array')
+// } else {
+//   someNum = myFavoriteNumbers[6]
+// };
+// console.log(`this is string`,someNum)
 
 // console.log(myFavoriteNumbers[7])
 
@@ -136,11 +136,11 @@ var listOfNumbers = [1,2,3,4,5,6,7,8,9,10,11,12];
 
 //Code Here
 
-// for (let i = 0; i < listOfNumbers.length; i++) {
-//   if((listOfNumbers[i] % 3) === 0)  {
-//     console.log(`${listOfNumbers[i]} is divisible by 3`)
-//   }
-// }
+for (let i = 0; i < listOfNumbers.length; i++) {
+  if((listOfNumbers[i] % 3) === 0)  {
+    console.log(`${listOfNumbers[i]} is divisible by 3`)
+  }
+};
 
 ////////// PROBLEM 9 //////////
 // Do not edit the code below.
