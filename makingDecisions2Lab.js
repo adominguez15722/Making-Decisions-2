@@ -123,6 +123,7 @@ if (myFavoriteNumbers.length < 7) {
   someNum = myFavoriteNumbers[6]
 };
 console.log(`this is string`,someNum)
+
 // console.log(myFavoriteNumbers[7])
 
 ////////// PROBLEM 8 //////////
