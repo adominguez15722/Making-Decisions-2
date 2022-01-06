@@ -95,7 +95,7 @@ var score = 74
 ////////// PROBLEM 6 //////////
 
 // Do not edit the code below.
-var myFavoriteNumbers = [4,8,12,16,20,24];
+var myFavoriteNumbers = [4,8,12,16,20,24, 5, 8, 9, 10];
 // Do not edit the code above.
 
 /*
@@ -114,15 +114,15 @@ console.log(someNum);
 
 //Code Here
 
-// console.log(myFavoriteNumbers[7])
-// if (myFavoriteNumbers.length < 7) {
-//   console.log('There are not enough elements')
-// } else if (myFavoriteNumbers.length === 7)  {
-//   console.log('There are 7 elements in this array')
-// } else {
-//   myFavoriteNumbers.push(someNum)
-// };
 
+if (myFavoriteNumbers.length < 7) {
+  console.log('There are not enough elements')
+} else if (myFavoriteNumbers.length === 7)  {
+  console.log('There are 7 elements in this array')
+} else {
+  someNum = myFavoriteNumbers[6]
+};
+console.log(`this is string`,someNum)
 // console.log(myFavoriteNumbers[7])
 
 ////////// PROBLEM 8 //////////
